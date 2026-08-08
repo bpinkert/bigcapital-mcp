@@ -91,8 +91,8 @@ are getting a feel for it.
 Prereqs: Node.js 20+, a running Bigcapital instance you can reach over HTTP.
 
 ```bash
-git clone <this-repo>
-cd bigcapital-integration/server
+git clone https://github.com/bpinkert/bigcapital-mcp.git
+cd bigcapital-mcp/server
 npm install
 npm run build
 ```
@@ -129,7 +129,7 @@ Edit `claude_desktop_config.json`:
   "mcpServers": {
     "bigcapital": {
       "command": "node",
-      "args": ["/absolute/path/to/bigcapital-integration/server/build/index.js"],
+      "args": ["/absolute/path/to/bigcapital-mcp/server/build/index.js"],
       "env": {
         "API_BASE_URL": "http://<your-bigcapital-host>",
         "BIGCAPITAL_EMAIL": "<you>@example.com",
@@ -148,7 +148,7 @@ Restart Claude Desktop. New tools appear under the "bigcapital" server.
 From this directory:
 
 ```bash
-claude mcp add bigcapital -- node /absolute/path/to/bigcapital-integration/server/build/index.js
+claude mcp add bigcapital -- node /absolute/path/to/bigcapital-mcp/server/build/index.js
 ```
 
 Or use the project-scoped `.mcp.json` already in this repo (Claude Code picks

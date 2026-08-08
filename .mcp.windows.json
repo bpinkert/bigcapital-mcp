@@ -2,7 +2,7 @@
   "mcpServers": {
     "bigcapital": {
       "command": "node",
-      "args": ["C:\\path\\to\\bigcapital-integration\\server\\build\\index.js"]
+      "args": ["C:\\path\\to\\bigcapital-mcp\\server\\build\\index.js"]
     }
   }
 }
