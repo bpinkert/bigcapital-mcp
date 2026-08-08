@@ -1,0 +1,12 @@
+node_modules/
+build/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Editor / tooling local state
+.idea/
+.vscode/
+.claude/settings.local.json

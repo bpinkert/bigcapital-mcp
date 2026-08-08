@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "bigcapital": {
+      "command": "./server/run.sh"
+    }
+  }
+}
